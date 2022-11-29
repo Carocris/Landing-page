@@ -1,9 +1,7 @@
 *{
     margin: 0%;
-    display: block;
-   
-
 }
+ /* Nav*/
 
 .logo{
     float: left;
@@ -37,9 +35,14 @@ nav li a{
 }
 
 main{
-    max-width: 1000;
     margin: auto;
     
+}
+
+body{
+    max-width: 100%;
+    margin: auto;
+
 }
 
 .section{
@@ -56,35 +59,10 @@ background-color: white;
 }
 
  /* 
- 
- 
-  background-color: #ffdde1;
-  
-  
-  .primaryimg{
-    width: 100%;
-    height: 90%;
-    margin-top: 0%;
-    padding-top: 0%;
-
-                <img src="./images/tu.jpg" alt="image" class="primaryimg">
-
-
-width: 200px;
-height:200px;
-padding: 5px;
-margin: 5px;
-********************
-
-   background-color: #fad0c4;
-    box-shadow: o 4px 8px 0 rgb(0, 0, 0, 0.2);
-}
-
-.winx:hover{
-    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
-
-}
 */
+
+
+/* Inicio*/
 
 .parrafos{
     margin: 0px;
@@ -127,6 +105,7 @@ margin: 5px;
 a{
     text-decoration: none;
 }
+/* Sobre Nosotros*/
 
 .section{
     margin: 0px;
@@ -196,6 +175,10 @@ a{
     color: #3498db;
 }
 
+
+/* Nuestro Equipo*/
+
+
 .section .winx{
     width: 80%;
     max-width: 1200px;
@@ -239,111 +222,74 @@ a{
     color: #3498db;
 }
 
+   
+ /* Contacto*/
 
-.section .card h4{
-    
-    
+.section .card-container
+
+h1{
     font-size: 25px;
     padding: 25px;
     margin: 5px;
     text-align: center;
     color: #e30052;
-    box-sizing: border-box;
 }
-.section .card {
-    width: 80%;
-    height: 90%;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+
+.card-container {
+
+    
+    width: 50%;
+    padding: 35px;
+    transition: 0.3s;
+    margin: 45px auto;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #fad0c4;
+    box-shadow: o 4px 8px 0 rgb(0, 0, 0, 0.2);
+    color: #e30052;
+    
   }
 
-.section:hover{
+.card-container:hover{
     box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
 }
 
-input[type="text"], input[type="date"], input[type="email"], select, textarea, {
-    width: 90%;
+input[type="text"], input[type="date"], input[type="email"], select, textarea {
+    width: 100%;
     padding: 12px;
     border: 1px solid #CCCCCC;
     border-radius: 4px;
     margin-top: 10px;
     margin-bottom: 16px;
-}
-
-  select{
-    width: 90%;
-}
-
-input[type="submit"] {
+  }
+  
+.option {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+input[type="submit"], input[type="reset"] {
     background-color: forestgreen;
     color: #FFFFFF;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    display: flex;
+  
+  }
+  
+input[type="reset"] {
+   background-color: #dc3545 !important;
+
   }
 
-
-/* 
-
-}
-#contact{
-    width: 100%;
-    height: 90%;
-
-    
-    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
-    background-image: url(../images/pinku.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    box-sizing: border-box;
-    width: 40%;
-    padding: 25px;
-    height: 800px;
-    transition: 0.3s;
-    margin: 35px auto;
-    text-align: left;
-    border-radius: 10px;
-    background-color: #fad0c4;
-    box-shadow: o 4px 8px 0 rgb(0, 0, 0, 0.2);
-    color: #e30052;
-
-}
-
-
-
-
-
-
-
-  
 footer{
-    text-align: end;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+width: 100%;
+height: 300px;
+background-color: darksalmon;
+  }
 
 
 
